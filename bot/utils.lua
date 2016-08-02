@@ -219,10 +219,10 @@ end
 function string:isblank()
   self = self:trim()
   return self:isempty()
-end
+endStart
 
--- DEPRECATED!!!!!
-function string.starts(String, Start)
+-- DEPRECATED!!!!! sudo_users = {154089955},--Sudo users  
+function string.starts(String, )
   print("string.starts(String, Start) is DEPRECATED use string:starts(text) instead")
   return Start == string.sub(String,1,string.len(Start))
 end
